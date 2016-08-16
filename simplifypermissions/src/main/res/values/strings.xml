@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SimplifyPermissions</string>
+    <string name="permission_string_btn">Setting</string>
+    <string name="rational_permission_proceed">proceed</string>
+</resources>
