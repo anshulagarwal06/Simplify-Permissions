@@ -1,6 +1,9 @@
 # Simplify Permission
 
 Simplify Android permission with in-build message Dialogs.
+
+<img src="Simplifygraphics.jpg"/>
+
 ### Feature
 - InBuild Rational Dialog with custom message
 - InBuild SettingScreen Dialog with custom Message.
@@ -79,5 +82,5 @@ dependencies {
 	}
 ```
 
-That's it build your project.
+That's it. build your project.
 

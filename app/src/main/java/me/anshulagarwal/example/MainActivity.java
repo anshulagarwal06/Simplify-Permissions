@@ -21,8 +21,8 @@ public class MainActivity extends MarshmallowSupportActivity implements Permissi
     private void checkPermissionCamera() {
 
         Permission.PermissionBuilder permissionBuilder = new Permission.PermissionBuilder(PHOTO_ACTIVITY_CAMERA_PERMISSIONS, PHOTO_ACTIVITY_REQUEST_CARMERA_AND_READ_WRITE, this);
-        permissionBuilder.enableDefaultRationalDialog("Ration dialog title", "Ration Dialog message")
-                .enableDefaultSettingDialog("Setting Dialog title", "Setting dialog message");
+        permissionBuilder.enableDefaultRationalDialog("Allow camera access", "Without camera permission we are unable to take product image.Go ahead and grand permission.")
+                .enableDefaultSettingDialog("Permission Error", "Setting dialog message");
         requestAppPermissions(permissionBuilder.build());
     }
 
