@@ -78,7 +78,7 @@ After that you can easily include the library in your **app** `build.gradle`:
 
 ```groovy
 dependencies {
-	        compile 'com.github.anshulagarwal06:Simplify-Permissions:v1
+	        compile 'com.github.anshulagarwal06:Simplify-Permissions:v1'
 	}
 ```
 
